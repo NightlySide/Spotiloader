@@ -1,0 +1,10 @@
+.downbutton {
+    float: right;
+    margin-top: 3.5px;
+}
+
+.trackimg {
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}

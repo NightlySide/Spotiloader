@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./index.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+            <h1>Spotify Downloader</h1>
+        </header>
+        <section class="row">
+            <div class="input-group">
+                <input type="text" class="form-control" id="pl_url_input" placeholder="Enter playlist url ...">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary" id="searchbtn" type="button" disabled>Find</button>
+                </span>
+            </div>
+        </section>
+        <section class="row">
+            <ul class="list-group" id="tracklist"> <!--
+                <li href="#" class="list-group-item list-group-item-action">
+                    <img src="./placeholder.jpg" class="img-rounded trackimg" alt="'+title+' (cover)">
+                    <button type="button" class="btn btn-success downbutton">Download</button>
+                    <h5 class="list-group-item-heading">Artiste - Titre</h5>
+                    <p class="list-group-item-text">Album - Année</p>
+                </li> -->
+            </ul>
+        </section>
+    </div>
+</body>
+
+<script>window.$ = window.jQuery = require('./js/jquery-3.1.1.min.js');</script>
+<script src="./js/tether.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./index.js"></script>
+</html>

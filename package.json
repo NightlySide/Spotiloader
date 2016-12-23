@@ -1,0 +1,16 @@
+{
+  "name": "spotify-downloader",
+  "version": "1.0.0",
+  "description": "A small application to download songs from a Spotify playlist",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Nightlyside",
+  "license": "ISC",
+  "repository": "https://github.com/NightlySide",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "spotify-web-api-node": "^2.3.6"
+  }
+}
